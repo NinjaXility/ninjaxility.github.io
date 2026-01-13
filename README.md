@@ -23,7 +23,7 @@ Tools should serve you, not surveil you.
 ## What’s Here
 
 ### **Active Tools**
-Ready now. Flashcards, formatters, encoders — utilities built for utility.
+Ready now. Flashcards, formatters, encoders. Utilities built for utility.
 
 ### **Incubating Ideas**
 Half‑formed, quiet, unpolished. Some things aren’t finished because they don’t need to be.
