@@ -158,7 +158,7 @@ export default function FieldTerminal({ onFinish }) {
                     Check the source code of
                     <br />
                     <span className="text-amber-200">
-                      src/tools/FieldTerminal.jsx
+                      src/tools/Active/FieldTerminal.jsx
                     </span>
                   </div>
                 )}
