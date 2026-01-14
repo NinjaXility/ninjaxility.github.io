@@ -2,6 +2,8 @@
 import ToolCard from "../tools/ToolCard";
 import JSONFormatter from "../tools/active/JSONFormatter";
 import Base64Encoder from "../tools/active/Base64Encoder";
+import Timestamps from "../tools/Active/Timestamps.jsx";
+
 import { useNavigate } from 'react-router-dom';
 
 const toolsList = [
@@ -18,10 +20,10 @@ const toolsList = [
     status: "Ready"
   },
   { 
-    id: "regex", 
-    title: "Regex Tester", 
-    description: "Test regular expressions", 
-    status: "Coming Soon" 
+    id: "timestamps", 
+    title: "Timestamp Converter", 
+    description: "Convert between timestamps", 
+    status: "Ready"  
   },
   { 
     id: "hash", 
@@ -42,10 +44,10 @@ const toolsList = [
     status: "Coming Soon" 
   },
   { 
-    id: "timezone", 
-    title: "Timezone Converter", 
-    description: "Convert between timezones", 
-    status: "Coming Soon" 
+    id: "regex", 
+    title: "Regex Tester", 
+    description: "Test regular expressions", 
+    status: "Coming Soon"
   },
 ];
 

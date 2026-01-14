@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import FlashcardsPage from "./pages/FlashcardsPage.jsx";
 import Flashcards from "./tools/active/Flashcards.jsx";
+import Timestamps from "./tools/active/Timestamps.jsx";
 import {
   Routes,
   Route,
@@ -198,6 +199,7 @@ useEffect(() => {
   <Route path="/tools" element={<ToolsPage />} />
   <Route path="/tools/json" element={<JSONFormatter />} />
   <Route path="/tools/base64" element={<Base64Encoder />} />
+  <Route path="/tools/timestamps" element={<Timestamps />} />
 </Routes>
 
       </div>
