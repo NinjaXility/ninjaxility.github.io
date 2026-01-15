@@ -1,24 +1,10 @@
 // ToolsPage.jsx
 import ToolCard from "../tools/ToolCard";
-import JSONFormatter from "../tools/active/JSONFormatter";
-import Base64Encoder from "../tools/active/Base64Encoder";
-import Timestamps from "../tools/Active/Timestamps.jsx";
+import Timestamps from "../tools/active/Timestamps.jsx";
 
 import { useNavigate } from 'react-router-dom';
 
 const toolsList = [
-  { 
-    id: "json", 
-    title: "JSON Formatter", 
-    description: "Format and validate JSON", 
-    status: "Ready"
-  },
-  { 
-    id: "base64", 
-    title: "Base64 Encoder", 
-    description: "Encode/decode Base64", 
-    status: "Ready"
-  },
   { 
     id: "timestamps", 
     title: "Timestamp Converter", 
@@ -26,29 +12,11 @@ const toolsList = [
     status: "Ready"  
   },
   { 
-    id: "hash", 
-    title: "Hash Generator", 
-    description: "Generate MD5, SHA hashes", 
-    status: "Coming Soon" 
-  },
-  { 
-    id: "uuid", 
-    title: "UUID Generator", 
-    description: "Generate UUIDs", 
-    status: "Coming Soon" 
-  },
-  { 
     id: "wordcount", 
     title: "Word Counter", 
     description: "Count words and characters", 
     status: "Coming Soon" 
-  },
-  { 
-    id: "regex", 
-    title: "Regex Tester", 
-    description: "Test regular expressions", 
-    status: "Coming Soon"
-  },
+  }
 ];
 
 const ToolsPage = () => {

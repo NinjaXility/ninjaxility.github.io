@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Flashcards from "../tools/Active/Flashcards.jsx";
+import Flashcards from "../tools/active/Flashcards.jsx";
 import { Plus, Trash2, Eye, EyeOff } from "lucide-react";
 
 const FlashcardsPage = ({ decks, setDecks }) => {

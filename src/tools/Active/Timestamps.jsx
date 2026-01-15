@@ -8,7 +8,6 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
  */
 
 const pad2 = (n) => String(n).padStart(2, "0");
-const pad3 = (n) => String(n).padStart(3, "0");
 
 function formatLocalHuman(ms) {
   const d = new Date(ms);

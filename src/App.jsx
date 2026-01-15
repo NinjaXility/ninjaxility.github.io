@@ -11,9 +11,6 @@ import {
 import { BookOpen, Zap, Home } from "lucide-react";
 
 import ToolsPage from "./pages/ToolsPage.jsx";
-import JSONFormatter from "./tools/active/JSONFormatter.jsx";
-import Base64Encoder from "./tools/active/Base64Encoder.jsx";
-import FieldTerminal from "./tools/active/FieldTerminal.jsx";
 
 /* ------------------ NAV ITEM ------------------ */
 const NavItem = ({ icon: Icon, label, onClick, active, badge }) => (
@@ -197,8 +194,6 @@ useEffect(() => {
     element={<FlashcardsPage decks={decks} setDecks={setDecks} />}
   />
   <Route path="/tools" element={<ToolsPage />} />
-  <Route path="/tools/json" element={<JSONFormatter />} />
-  <Route path="/tools/base64" element={<Base64Encoder />} />
   <Route path="/tools/timestamps" element={<Timestamps />} />
 </Routes>
 
