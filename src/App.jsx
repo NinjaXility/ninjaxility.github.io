@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import FlashcardsPage from "./pages/FlashcardsPage.jsx";
 import Flashcards from "./tools/active/Flashcards.jsx";
 import Timestamps from "./tools/active/Timestamps.jsx";
+import FieldTerminal from "./tools/active/FieldTerminal.jsx";
 import {
   Routes,
   Route,
